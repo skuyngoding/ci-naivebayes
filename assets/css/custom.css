@@ -1,0 +1,16 @@
+table {
+	text-align: center;
+}
+
+.table>tbody>tr>* {
+	vertical-align: middle;
+}
+
+/*
+    tambah data latih
+    hidden first, then show if req > 0
+*/
+.card-data,
+.btn-submit {
+	display: none;
+}
